@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Typographic Design Patterns and Best Practices</title>
+    <link rel="stylesheet" type="text/css" href="smashing.css">
+</head>
+<body>
+
+        <h1>Smashing Magazine</h1>
+
+        <h2>
+            <a href="http://www.smashingmagazine.com/2009/08/20/typographic-design-survey-best-practices-from-the-best-blogs/">
+            Typographic Design Patterns and Best Practices
+            </a>
+        </h2>
+
+        <p>Even with a relatively limited set of options in CSS, <strong>typography</strong> can vary tremendously using pure CSS syntax. Serif or sans-serif? Large or small font? Line height, spacing, font size and padding&hellip; The list goes on and on.</p>
+        
+        <p>To find typographic design patterns that are common in modern Web design and to resolve some common typographic issues, we conducted extensive research on 50 popular websites on which typography matters more than usual (or at least should matter more than usual). We've chosen popular newspapers, magazines and blogs as well as various typography-related websites.</p>
+        
+        <p>We've carefully analyzed their typography and style sheets and searched for similarities and differences. We have also put together a <a href="http://spreadsheets.google.com/ccc?key=0AsK4MoYiBVMldE12V3FJYk95YVRUZ18xNDJNOVRrSHc&amp;hl=de">spreadsheet of the study</a> that displays the websites' various values (for example, the ratio between the line height and line length).</p>
+        
+        <p>Ultimately, we identified <strong>13 general typographic problems</strong> and issues related to typographic design and tried to find answers to them through our research:</p>
+        
+        <ol>
+          <li>How popular are serif and sans-serif typefaces in body copy and headlines?</li>
+          <li>Which fonts are used most frequently?</li>
+          <li>What is the average font size?</li>
+          <li>What is the average ratio between the font size of headlines and body copy?</li>
+          <li>What is the average line height of body copy?</li>
+          <li>What is the average ratio between line height and font size in body copy?</li>
+          <li>What is the average ratio between line height and line length in body copy?</li>
+          <li>What is the average amount of spacing between paragraphs?</li>
+          <li>What is the average ratio of paragraph spacing to line height in body copy?</li>
+          <li>How are links styled?</li>
+          <li>How many characters per line are common in body copy?</li>
+          <li>How often are links underlined?</li>
+          <li>How often is font replacement (sIFR, etc.) used?</li>
+        </ol>
+        
+        <p>We ended up with solid data, which we evaluated and prepared for this article. Based on the statistics, we have identified several "rules of thumb" for working with type. Please note that these rules can often, but not always, be considered best practice.</p>
+        
+        <h3>1. Serif vs. Sans-serif</h3>
+        
+        <p>Whether designers should use serif or sans-serif fonts for body copy is one of the most discussed and unresolved questions about typesetting on the Web. Some designers prefer to give their headlines serifs (which are short, decorative lines at the end of letter strokes) to give them more appeal. The main reason to choose a serif font for your headlines is that, <strong>at a large size</strong>, serif fonts are easy to read and look great. The <strong>contrast</strong> between a serif font for headlines and a sans-serif font for body copy can be interesting, too.</p>
+        
+        <p>Some designers prefer serif fonts for body copy because they believe the lines at the end of letter strokes help guide readers from one letter to the next, making scanning and reading more comfortable.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/sans-headlines.gif" alt="Sans-headlines in Typographic Design Patterns and Best Practices " width="500" height="308" /></p>
+        
+        <p>According to our study, sans-serif fonts are still more popular than serif fonts for headlines, although they seem to have dropped in popularity in recent years.</p>
+        
+        <ul>
+          <li>60% of websites use sans-serif typefaces for headlines, mostly Arial, Verdana, Lucida Grande and Helvetica. Among them: 
+              <a href="http://www.cnn.com">CNN</a>,
+              <a href="http://www.arstechnica.com">ArsTechnica</a>,
+              <a href="http://www.slate.com">Slate</a>,
+              <a href="http://news.bbc.co.uk">BBC</a> and
+              <a href="http://www.newscientist.com">NewScientist</a>.</li>
+          <li>Only 34% of websites use a serif typeface for body copy. Among them: 
+            <a href="http://www.nytimes.com">New York Times</a>,
+            <a href="http://www.typographica.org">Typographica</a>,
+            <a href="http://www.time.com">Time</a>,
+            <a href="http://www.aiga.org">AIGA</a> and
+            <a href="http://www.newsweek.com">Newsweek</a>.</li>
+          <li>The most popular serif typefaces for headlines are Georgia (28%) and Baskerville (4%).</li>
+          <li>The most popular serif typefaces for body copy are Georgia (32%) and Times New Roman (4%).</li>
+          <li>The most popular sans-serif typefaces for headlines are Arial (28%), Helvetica (20%) and Verdana (8%).</li>
+          <li>The most popular sans-serif typefaces for body copy are Arial (28%), Verdana (20%) and Lucida Grande (10%).</li>
+        </ul>
+        
+        <p><strong>Two thirds</strong> of the websites we surveyed used sans-serif fonts for body copy. The main reason is probably because, despite the growing popularity of advanced font replacement techniques, such as <a href="http://wiki.github.com/sorccu/cufon/about">Cuf&oacute;n</a>, most designers stick to the core Web fonts, which essentially give them only two viable options: Georgia and Times New Roman. And because of the stigma attached to Times New Roman (that it often makes a modern website look outdated), they're left with only Georgia. Sans-serif fonts offer a <strong>wider variety</strong> of options for the Web.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/serif-body-copy.gif" alt="Serif-body-copy in Typographic Design Patterns and Best Practices " width="500" height="302" /></p>
+        
+        <h3>2. Which Typeface Is Most Popular?</h3>
+        
+        <p>Surprisingly, despite the growing popularity of font replacement techniques and growing availability of new pre-installed fonts (e.g. Windows Vista and Mac fonts), designs in our study mainly used the traditional, core Web fonts, the only exceptions being Lucida Grande (which comes installed only on Macs), Helvetica and Baskerville.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/most-popular-typefaces.gif" alt="Most-popular-typefaces in Typographic Design Patterns and Best Practices " width="500" height="285" /></p>
+        
+        <p>As one would expect, <strong>Arial, Georgia and Verdana</strong> are used for the majority of body copy today. In our study, around 80% of websites used one of these three fonts. For the remaining 20%, designers' favorite <strong>Helvetica</strong> is a popular choice, as is <strong>Lucida Grande</strong>.</p>
+        
+        <p>With options such as Verdana and Arial available as fall-backs, a designer really has no reason not to specify other non-standard fonts to achieve the best effect. You can learn more about advanced CSS font stacks in Nathan Ford's article <a href="http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/">Better CSS Font Stacks</a> and CodeStyle's <a href="http://www.codestyle.org/css/font-family/BuildBetterCSSFontStacks.shtml">Build Better CSS Font Stacks</a>.</p>
+        
+        <p><a href="http://jontangerine.com/"><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/jontan.gif" alt="Jontan in Typographic Design Patterns and Best Practices " width="500" height="523" /></a>
+        <br />
+        <em><a href="http://jontangerine.com/">Jon Tan</a> uses serif typeface Baskerville for headlines and serif typeface Georgia for body copy.</em></p>
+        
+        <p>Verdana is used minimally for headlines. Only 10 websites use it for body copy to begin with, and only four use it for headlines. The main reason is that Verdana puts a lot of spacing between letters, which makes it not as tidy to read at a large size. If you are going to use it for headlines, you may want to take advantage of the CSS <code>letter-spacing</code> property. Georgia and Arial are <strong>most popular fonts</strong> for headings.</p>
+        <p>Finally, we note that "alternative" fonts are used much more for headlines than for body copy. Designers seem more <strong>willing to experiment</strong> with their headings than with the main body. If you want to bring some typographic variation into your next design, headings may be the easiest place to start.</p>
+        
+        <h3>3. Light Or Dark Background?</h3>
+        
+        <p>We were curious to learn the extent to which designers were willing to experiment with dark background colors. We looked out for any typography-oriented websites that had a dark color scheme and were surprised to find not a single one.</p>
+        
+        <p>
+            <a href="http://www.newyorker.com/arts/critics/musical/2009/08/24/090824crmu_music_frerejones">
+            <img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/ny.gif" alt="Ny in Typographic Design Patterns and Best Practices " width="500" height="458" />
+            </a>
+            <br />
+            <em><a href="http://www.newyorker.com/arts/critics/musical/2009/08/24/090824crmu_music_frerejones">The New Yorker</a> has a light color scheme, with Times New Roman used for headlines and body copy.</em>
+        </p>
+        
+        <p><strong>Pure white background</strong> for body copy won by a landslide. However, many of the designs avoid the high contrast of pure white on pure black; text color is often made a bit lighter than pure black. Designers clearly focus on legibility and avoid experimenting with background colors. The contrast of black on white is easy to read and is, at least among these websites, the status quo.</p>
+        
+        <h3>4. Average Font Size For Headlines</h3>
+        
+        <p>Of course, the choice of headline font size depends on the font used in the design. In any case, in our study by far the most popular font sizes ranged from 18 to 29 pixels, with 18 to 20 pixels and 24 to 26 pixels being the most popular choices.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/font-size-headlines.gif" alt="Font-size-headlines in Typographic Design Patterns and Best Practices " width="500" height="343" /></p>
+        
+        <p>Our study didn't yield any clear winners. The average font size for headings is 25.6 pixels. But note that any size between 18 and 29 pixels could be effective; it depends, after all, on how your headings fit the <strong>overall design of your website</strong>. Still, you could try experimenting with larger sizes, because displays are always getting larger, as are display resolutions.</p>
+        
+        <p>An obvious outlier is <a href="http://www.wilsonminer.com/">Wilson Miner</a> (screenshot below), who uses a massive font size of 48 pixels for his headlines. His website is a special case, though, because all of his posts have extremely short titles, only a few words.</p>
+        
+        <p><a href="http://www.wilsonminer.com/"><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/miner.gif" alt="Miner in Typographic Design Patterns and Best Practices " width="500" height="476" /></a></p>
+        
+        <h3>5. Average Font Size For Body Copy</h3>
+        
+        <p>Do you remember about seven years ago when Web designs had tiny, barely readable elements, and body copy was set to 8 pixels in Tahoma? Small font sizes are out, and more and more modern designers are turning to large font sizes. From our sample size, we saw a clear tendency towards sizes between <strong>12 and 14 pixels</strong>. The most popular font size (38%) is 13 pixels, with 14 pixels slightly more popular than 12 pixels. Overall, the average font size for body copy is 13 pixels.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/body-copy-font-size.gif" alt="Body-copy-font-size in Typographic Design Patterns and Best Practices " width="500" height="354" /></p>
+        
+        <p>We noted (as one would expect) more and more attention being paid to the smallest typographic details. Dashes, quotes, footnotes, author names, introductory text and paragraphs have been carefully set, with optimal legibility in mind. Type setting is usually very consistent, with a lot of white space, leading and padding.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/turning.gif" alt="Turning in Typographic Design Patterns and Best Practices " width="500" height="345" />
+        <br />
+        <em><a href="http://new.typographica.org/">Typographica</a> uses a large font size for the introductory paragraphs of its articles, and then reverts to a normal size for the rest of text.</em></p>
+        
+        <h4>Heading to Body Font-Size Ratio</h4>
+        
+        <p>To better understand the relationship between heading and body font size, we divided each website's heading font size by its body font size. We took the average of these ratios and derived a <strong>rule of thumb</strong> for you to work with:</p>
+        <blockquote>
+          <p><strong>Heading font size &divide; Body copy font size = 1.96</strong></p>
+        </blockquote>
+        
+        <p>The overall value, then, is 1.96. This means that when you have chosen a font size for your body copy, you may want to <strong>multiply it by 2</strong> to get your heading font size. This, of course, depends on your style; the rule of thumb won't necessarily give you the optimal size for your particular design. Another option is to use a traditional scale (6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 36, 48, 60, 72) or the Fibonacci sequence (e.g. 16 - 24 - 40 - 64 - 104) to get natural typographic results.</p>
+        
+        <h3>6. Optimal Line Height For Body Copy</h3>
+        
+        <p>Leading (or line height) will always depend on your chosen font size and measure (or line length). In general, the longer the measure, the longer the leading should be. Therefore, presenting a chart of the most popular choices for leading in pixels wouldn't make sense here. More appropriate would be for you to use a relative unit, such as an em or percentage value, that determines the relation between leading and measure and between leading and font size.</p>
+        
+        <p>According to our study:</p>
+        
+        <ul>
+          <li><strong>line height (pixels) &divide; body copy font size (pixels) = 1.48</strong>
+          <br />
+          Note that 1.5 is a value that is commonly recommended in classic typographic books, so our study backs up this rule of thumb. Very few websites use anything less than that. The number of websites that go above 1.48 decreases as you get further from this value.</li>
+          <li><strong>line length (pixels) &divide; line height (pixels) = 27.8</strong>
+          <br />
+          The average line length is 538.64 pixels (excluding margins and paddings) which is pretty large, considering that many websites still use 12 to 13 pixels for their body copy font size.</li>
+          <li><strong>space between paragraphs (pixels) &divide; line height (pixels) = 0.754</strong>
+          <br />
+          We were surprised by this result. It turns out that paragraph spacing (i.e. the space between the last line of one paragraph and the first line of the next) rarely equals the leading (which would be the main characteristic of perfect vertical rhythm). More often, paragraph spacing is just 75% of the paragraph leading. The reason may be that leading usually includes the space taken up by descenders, and because most characters do not have descenders, additional white space is created under the line.</li>
+        </ul>
+        
+        <p><a href="http://aiga.org/content.cfm/when-its-cool-to-say-cool"><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/aiga.gif" alt="Aiga in Typographic Design Patterns and Best Practices " width="500" height="430" /></a></p>
+        
+        <p><em><a href="http://aiga.org/content.cfm/when-its-cool-to-say-cool">AIGA</a> is a perfect example of optimal leading. Its font size is 13.21 pixels (converted from ems) and its line height is 19.833 pixels (conversion from ems). In fact, 19.8333 &divide; 13.2167 = 1.5011.</em></p>
+        
+        <p>So, once you have decided on your body copy font size, multiplying this value by 1.5 will give you the optimal line height. Once you've got that, you can multiply this new value by 27.8 to get your optimal line length. Note that the layout will also need gutters, margins and padding to let the body copy breathe.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/newsc.gif" alt="Newsc in Typographic Design Patterns and Best Practices " width="500" height="430" /></p>
+        
+        <p><em><a href="http://www.newscientist.com/">The New Scientist</a> has 20 pixels of spacing between paragraphs.</em></p>
+        
+        <h3>7. How Many Characters Per Line?</h3>
+        
+        <p>According to a classic rule of Web typography, 55 to 75 is an optimal number of characters per line. Surprisingly, our study shows that most websites have a higher number. We counted how many characters could fit on one line using the design's default font size. The result, which is an average of <strong>88.74</strong> characters per line (maximum), is extremely high. Of course, this maximal number is different from the average number of characters per line, which in general ranges between 75 and 85 characters per line. Still, the range is way above the conventional range - quite peculiar.</p>
+        
+        <p><img src="http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/images/type-survey/characters-per-line.gif" alt="Characters-per-line in Typographic Design Patterns and Best Practices " width="500" height="285" /></p>
+        
+        <p>Between 73 and 90 characters per line is a popular choice among designers, yet we also found outliers: <a href="http://monocle.com/sections/edits/Magazine-Articles/If-you-please-sir-/">Monocle</a> (47 characters per line) and <a href="http://boxesandarrows.com/">Boxes and Arrows</a> (125 characters per line). To get a more exact reading for each website, you would need to take an <strong>average character count</strong> from multiple lines.</p>
+        
+        <h3>Other Findings</h3>
+        
+        <ul>
+          <li>46% of websites underlined the links in their body copy, while the others highlighted only with color or a bold font weight.</li>
+          <li>6% of websites used some kind of image replacement for headings or body copy (e.g. <a href="http://monocle.com/sections/edits/Magazine-Articles/If-you-please-sir-/">Monocle</a>, <a href="http://newyorker.com/">New Yorker</a>, <a href="http://newsweek.com/">Newsweek</a>).</li>
+          <li>96% of websites do not justify text.</li>
+          <li>Websites gave their text a left padding of on average 11.7 pixels (counting from the left content area border).</li>
+        </ul>
+        
+        <h3>Conclusion</h3>
+        
+        <p>The study shows a clear set of common practices and guidelines for setting type in Web design. Note, though, that these findings are not scientific and should serve only as rough guidelines:</p>
+        <ol>
+          <li>Either serif or sans-serif fonts are fine for body copy and headings, but sans-serif fonts are still more popular for both.</li>
+          <li>Common choices for headlines are Georgia, Arial and Helvetica.</li>
+          <li>Common choices for body copy are Georgia, Arial, Verdana and Lucida Grande.</li>
+          <li>The most popular font size for headings is a range between 18 and 29 pixels.</li>
+          <li>The most popular font size for body copy is a range between 12 and 14 pixels.</li>
+          <li>Header font size &divide; Body copy font size = 1.96.</li>
+          <li>Line height (pixels) &divide; body copy font size (pixels) = 1.48.</li>
+          <li>Line length (pixels) &divide; line height (pixels) = 27.8.</li>
+          <li>Space between paragraphs (pixels) &divide; line height (pixels) = 0.754.</li>
+          <li>The optimal number of characters per line is between 55 and 75, but between 75 and 85 characters per line is more popular,</li>
+          <li>Body text is left-aligned, image replacement is rarely used and links are either underlined or highlighted with bold or color.</li>
+        </ol>
+        
+        <p>Of course these "rules" aren't set in stone. Rather, they are a set of <strong>rough guidelines</strong> that you can use as a basis for setting typography. Every website is unique, and you may want to modify your choices at each stage of your design to suit your layout. You can also <a href="http://spreadsheets.google.com/ccc?key=0AsK4MoYiBVMldE12V3FJYk95YVRUZ18xNDJNOVRrSHc&amp;hl=de">take a look at the spreadsheet of the study</a> and export its data for further analysis.</p>
+        
+        <h3>Related posts</h3>
+        
+        <p>You may be interested in the following related posts:</p>
+        
+        <ul>
+          <li><a href="http://www.smashingmagazine.com/2008/07/24/a-small-study-of-big-blogs/">A Small Study of Big Blogs</a></li>
+          <li><a href="http://www.smashingmagazine.com/2008/07/31/a-small-survey-of-big-blogs-further-findings/">A Small Study Of Big Blogs: Further Findings</a></li>
+          <li><a href="http://www.smashingmagazine.com/2008/07/04/web-form-design-patterns-sign-up-forms/">Web Form Design Patterns: Sign-Up Forms</a></li>
+          <li><a href="http://www.smashingmagazine.com/2008/07/08/web-form-design-patterns-sign-up-forms-part-2/">Web Forms Design Patterns: Sign-Up Forms, Part 2</a></li>
+        </ul>
+    </body>
+</html>
