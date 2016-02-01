@@ -1,0 +1,226 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	line-height: 1.125em;
+	color: #333333;
+
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+
+	font-family: 'Oswald', sans-serif;
+
+}
+
+/* STUDENT STYLES */
+
+.pagewrap{
+	max-width: 960px;
+	margin: auto;
+	padding: 0 10px 0 10px;
+}
+a:hover{
+	color:orange;
+	text-decoration: underline;
+}
+/***********************header******************/
+header{
+	margin: 22px 0 0 0;
+	width: 100%;
+	min-height: 270px;
+  	display: block;
+  	background-color: #f0f0f0;
+  	border: 1px solid white;
+}
+header h1{
+	margin: 90px auto 0 auto;
+	text-align: center;
+	font-size: 4.5em;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+header h1 a{
+	text-decoration: none;
+	color: #333333;
+}
+.nav{
+	list-style-type: none;
+	width: 50%;
+	margin: 20px auto 0 auto;
+ 
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+li a{
+	display: block;
+	color: #333333;
+	text-decoration: none;
+	display: block;
+}
+
+/************************body*******************/
+.flexwrap{
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+}
+section{
+	margin: 75px 0 0 0;
+	border: 1px soild blue;
+   -webkit-flex: 66%;
+           flex: 66%;
+   -webkit-order: 1;
+           order: 1;
+}
+section h1{
+	font-size: 3em;
+	line-height: 1em;
+	margin: 0 0 70px 0;
+}
+h2{
+	font-size: 2.5em;
+	line-height: 1em;
+	margin: 70px 0 10px 0;
+}
+h2 span{
+	font-weight: 100;
+	font-size: .75em;
+}
+.number{
+	display: block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%; 
+    background-color: orange;
+    color: white;
+    text-align: center;
+    transform: rotate(-20deg);
+    box-shadow: 4px 4px 10px #333333;
+    position: absolute;
+    margin: 80px 0 0 20px;
+    font-family: 'Oswald', sans-serif;
+}
+section img{
+	width: 100%;
+	position: relative;
+	z-index: -1;
+}
+section p{
+	margin: 15px 0 15px 0;
+}
+/***********************sidebar*******************/
+aside{
+	margin: 75px 0 0 11%;
+	-webkit-flex: 22%;
+           flex: 22%;
+   -webkit-order: 2;
+           order: 2;
+}
+aside h1{
+	text-align: center;
+	line-height: 1em;
+}
+.subtext{
+	text-align: center;
+	margin: 8px 0 20px 0;
+}
+.subtext a{
+	font-size: .8em;
+}
+aside li{
+	text-align: center;
+	display: block;
+}
+.villan_name{
+	font-weight: 200;
+	font-size: 1.4em;
+	margin: 50px 0 0 0;
+	display: block;
+}
+aside img{
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+/*******************footer*****************/
+footer{
+	width: 100%;
+  	margin: 120px 0 20px 0;
+}
+footer h1{
+	display: block;
+	width: 100%;
+	font-size: 1.2em;
+	margin: 0 0 3px 0;
+}
+footer p{
+	width: 100%;
+	font-size: .75em;
+}
+.footer_flex{
+	display: flex;
+}
+nav{
+	flex: 33%;
+	order: 1;
+	margin: 35px 0 0 0;
+}
+nav ul{
+	list-style-type: none;
+}
+ol h2{
+	font-size: 1.2em;
+}
+.bonds{
+	flex: 33%;
+	order: 2;
+	margin: -30px 0 0 0;
+}
+.villians{
+	flex: 33%;
+	order: 3;
+	margin: -30px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
