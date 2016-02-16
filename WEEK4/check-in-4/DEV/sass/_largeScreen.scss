@@ -1,0 +1,12 @@
+@media (min-width: 800px) {
+  .pagewrap {
+    flex-direction: row;
+    flex: 1;
+  }
+  main {
+    flex: 1;
+  }
+	nav, aside{
+    flex: 0 0 12em;
+  }
+}
