@@ -1,0 +1,91 @@
+@media (min-width: 701px){
+body{
+	max-width: 1020px;
+}
+/*********************Header*************************/
+.logo{
+}
+header{
+	height:462px;
+	background-image: url("../images/nav-background.gif");
+}
+
+/****************************nav************************/
+.hamburger{
+  display: none;
+}
+.cross{
+  display: none;
+}
+.wideMenu{
+	display: inline;
+	margin-top: -55px;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: .2em;
+	width: 70%;
+	float: right;
+	font-size:0.8em; 
+	background-image: url("../images/nav-background.gif");
+	text-align:center;
+	}
+.wideMenu ul {
+		margin: 0; 
+		padding: 0; 
+		list-style-type: none; 
+		list-style-image: none;
+	}
+.wideMenu li {
+		float: left;  
+		padding:15px 0 15px 0; 
+		width: 25%;
+		font-weight: bold;
+	}
+.wideMenu li:hover{display: block;    
+		padding:15px 0 15px 0; 
+	}
+.wideMenu a{text-decoration:none; 
+		color: #004f9d;
+	}
+.wideMenu a:hover{text-decoration:none; 
+		color:#da1f3c;
+	}
+/***********************Weather*************************/
+aside{
+	width: 67%;
+	float: right;
+}
+.weather h3{
+	margin-right: 3%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #bb203d;
+	width: 250px;
+	text-align: center;
+}
+.currentConditions a:visited{
+	color: white;
+}
+.tomorrow{
+	display: inline;
+}
+.snowTotals h3{
+	margin: 7px 3% 0 0;
+}
+.roadStatus img{
+	float: left;
+	margin: 10px 0 0 120px;
+}
+.roadStatus h3{
+	margin: 9px 3% 0 0;
+}
+/************************Main***************************/
+.purchase a{
+	font-size: 2.2em;
+}
+/************************footer*************************/
+.socialMedia{
+	width: 50%;
+}
+
+}
