@@ -1,0 +1,80 @@
+@media (min-width: 600px) and (max-width: 999px){
+	body{
+		max-width: 999px;
+	}
+
+/*****************************Main*************************/
+	.about{
+		margin: 50px 0 0 2%;
+		font-size: 2.0em;
+		line-height: 1.2em;
+		}
+/***************************Projects***********************/
+	article{
+		width: 80%;
+		margin: 30px 0 0 20%;
+
+	}
+	article h2{
+		font-size: 2.0em;
+	}
+	.limit{
+		width: 105%;
+		position: relative;
+	}
+	.bg{
+		margin: 40px 0 0 18%;
+		width: 77%;
+	}
+	.bg2{
+		margin: 175px 0 0 18%;
+		width: 77%;
+	}
+	.bg3{
+		margin: 311px 0 0 18%;
+		width: 77%;
+	}
+	.hoverHide h3{
+		line-height: 1.5em;
+		position: absolute;
+		left: 50%; 
+		bottom: 27px;
+	}
+	.hoverHide a{
+		color: white;
+		position: absolute;
+		left: 80%; 
+		bottom: 30px;
+	}
+	article:hover{
+		width:80%;
+		margin: 30px 0 0 20%;
+		display: block;
+	}
+	article:hover .hoverHide{
+		display: block;
+		color: white;
+	}
+	.aOne:hover{
+		background-color: #15406d;
+	}
+	.aTwo:hover{
+		background-color: #2db767;
+	}
+	.aThree:hover{
+		background-color:#228aad;
+	}
+	.bg:hover{
+		width: 77%;
+		margin: 40px 0 0 18%;
+	}
+
+
+/**************************Pitch****************************/
+	.pitch p{
+		margin: 50px 0 0 2%;
+		font-size: 2.0em;
+		line-height: 1.2em;
+		width: 78%;
+	}
+}

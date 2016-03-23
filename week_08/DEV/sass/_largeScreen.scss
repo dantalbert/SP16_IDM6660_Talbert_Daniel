@@ -1,0 +1,175 @@
+@media (min-width: 1000px){
+	body{
+		max-width: 1220px;
+	}
+	/*********************Header*************************/
+	li{
+		float: right;
+		margin: 0 15px 0 0;
+		font-weight: bolder;
+	}
+	li a{
+		text-decoration: none;
+		color: #404040;
+		padding: 0 50px 0 5px;
+		border: 2px solid white;
+	}
+	li:nth-child(3) a:hover{
+		border: 2px solid #15406d;
+	}
+	li:nth-child(2) a:hover{
+		border: 2px solid #2db767;
+	}
+	li:nth-child(1) a:hover{
+		border: 2px solid #228aad;
+	}
+
+	/*********************Main*************************/
+	main{
+		background-color: #f4f4f4;
+		width: 95%;
+		margin: auto;
+		border: 1px solid #f4f4f4;
+	}
+	.about{
+		margin: 50px 0 0 2%;
+		font-size: 2.4em;
+		line-height: 1.2em;
+		width: 78%;
+	}
+	/*********************Projects***********************/
+	.projects{
+		width: 100%;
+		float: right;
+		z-index: -5;
+		margin: 60px 0 0 0;
+	}
+	.projects h1{
+		margin: 0 0 0 20%;
+		color: #404040;
+		font-size: 1.5em;
+		line-height: 1.2em;
+	}
+	article{
+		margin: 25px 0 0 0;
+		width: 60%;
+		float: right;
+		margin: 30px 20% 0 20%;
+		height: 100px; 
+		z-index: 5;
+		position: relative;
+	}
+	article h2{
+		margin: 40px 0 0 60px;
+		font-size: 2.5em;
+		color: white;
+	}
+	.limit{
+		width: 105%;
+		position: relative;
+	}
+	.bg{
+		background-color: #cccccc;
+		color: #cccccc;
+		margin: 40px 0 0 18%;
+		height: 100px;
+		width: 57%;
+		position: absolute;
+		z-index: 0;
+	}
+	.bg2{
+		background-color: #cccccc;
+		color: #cccccc;
+		margin: 175px 0 0 18%;
+		height: 100px;
+		width: 57%;
+		position: absolute;
+		z-index: 0;
+	}
+	.bg3{
+		background-color: #cccccc;
+		color: #cccccc;
+		margin: 311px 0 0 18%;
+		height: 100px;
+		width: 57%;
+		position: absolute;
+		z-index: 0;
+	}
+	.aOne{
+		border: 3px solid #15406d;
+	}
+	.aTwo{
+		border: 3px solid #2db767;
+	}
+	.aThree{
+		border: 3px solid #228aad;
+	}
+	.hoverHide{
+		display: none;
+	}
+	.hoverHide h3{
+		line-height: 1.5em;
+		position: absolute;
+		left: 50%; 
+		bottom: 23px;
+	}
+	.hoverHide a{
+		color: white;
+		position: absolute;
+		left: 80%; 
+		bottom: 25px;
+	}
+	article:hover{
+		width:80%;
+		margin: 30px 0 0 20%;
+		display: block;
+	}
+	article:hover .hoverHide{
+		display: block;
+		color: white;
+	}
+	.aOne:hover{
+		background-color: #15406d;
+	}
+	.aTwo:hover{
+		background-color: #2db767;
+	}
+	.aThree:hover{
+		background-color:#228aad;
+	}
+	/*********************Pitch**************************/
+	.pitch{
+		margin: 620px 0 0 0;
+		background-color: #f4f4f4;
+	}
+	.pitch p{
+		margin: 50px 0 0 2%;
+		font-size: 2.4em;
+		font-weight: bolder;
+		line-height: 1.2em;
+		width: 78%;
+		color: #404040;
+	}
+	.pitch ul{
+		height: 100px;
+		width: 100%;
+		margin: 20px 0 0 20%;
+	}
+	.pitch li{
+		height: 100px;
+		width: 20%;
+		float: left;
+	}
+	.pitch li a{
+		border: 2px solid #f4f4f4;
+		font-size: 1.5em;
+	}
+	/*********************Footer*************************/
+	footer{
+		width: 95%;
+		margin: auto;
+	}
+	footer ul{
+		margin: 10px 0 0 0;
+	}
+}
